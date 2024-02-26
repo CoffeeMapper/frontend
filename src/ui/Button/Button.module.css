@@ -1,4 +1,15 @@
 .button {
+  --c-black: #000;
+  --c-white: #fff;
+  --c-mindal: #f0c88dbd;
+  --c-green: #38b63d;
+
+  --c--disabled-text-light: #1d1b20;
+  --c--disabled-bg-light: #1d1b201f;
+
+  --c--disabled-bg-dark: #e6e0e91f;
+  --c--disabled-text-dark: #e6e0e9;
+
   position: relative;
   border: 1px solid transparent;
   display: flex;
@@ -11,10 +22,7 @@
 
   font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 20px; /* 142.857% */
-  letter-spacing: 0.1px;
 }
 
 .button:hover {
@@ -23,69 +31,60 @@
     0px 1px 3px 1px rgba(0, 0, 0, 0.15);
 }
 
-.button:focus {
-  /* outline: 2px solid transparent; */
-  /* outline-color: #000; */
-}
-
-.button:active {
-  /* outline: none; */
-}
-
 .button:disabled {
   cursor: not-allowed;
 }
 
 .button.black {
-  background-color: #000;
-  color: #fff;
-  border-color: #000;
+  background-color: var(--c-black);
+  color: var(--c-white);
+  border-color: var(--c-black);
 }
 
 .button.black:focus {
-  outline-color: #fff;
+  outline-color: var(--c-white);
 }
 
 .button.black:disabled {
-  background-color: #1d1b201f;
-  border-color: #1d1b201f;
-  color: #1d1b20;
+  background-color: var(--c--disabled-bg-light);
+  border-color: var(--c--disabled-bg-light);
+  color: var(--c--disabled-text-light);
 }
 
 .button.white {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #fff;
+  background-color: var(--c-white);
+  color: var(--c-black);
+  border: 1px solid var(--c-white);
 }
 
 .button.white:disabled {
-  background-color: #1d1b201f;
-  border-color: #1d1b201f;
-  color: #1d1b20;
+  background-color: var(--c--disabled-bg-light);
+  border-color: var(--c--disabled-bg-light);
+  color: var(--c--disabled-text-light);
 }
 
 .button.mindal {
-  background-color: #f0c88dbd;
-  color: black;
-  border-color: #f0c88dbd;
+  background-color: var(--c-mindal);
+  color: var(--c-black);
+  border-color: var(--c-mindal);
 }
 
 .button.mindal:disabled {
-  background-color: #e6e0e91f;
-  border-color: #e6e0e91f;
-  color: #e6e0e9;
+  background-color: var(--c--disabled-bg-dark);
+  border-color: var(--c--disabled-bg-dark);
+  color: var(--c--disabled-text-dark);
 }
 
 .button.green {
-  background-color: #38b63d;
-  color: white;
-  border-color: #38b63d;
+  background-color: var(--c-green);
+  color: var(--c-white);
+  border-color: var(--c-green);
 }
 
 .button.green:disabled {
-  background-color: #e6e0e91f;
-  border-color: #e6e0e91f;
-  color: #e6e0e9;
+  background-color: var(--c--disabled-bg-dark);
+  border-color: var(--c--disabled-bg-dark);
+  color: var(--c--disabled-text-dark);
 }
 
 a.button {
