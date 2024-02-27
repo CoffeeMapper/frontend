@@ -1,14 +1,5 @@
 .button {
-  --c-black: #000;
-  --c-white: #fff;
-  --c-mindal: #f0c88dbd;
-  --c-green: #38b63d;
 
-  --c--disabled-text-light: #1d1b20;
-  --c--disabled-bg-light: #1d1b201f;
-
-  --c--disabled-bg-dark: #e6e0e91f;
-  --c--disabled-text-dark: #e6e0e9;
 
   position: relative;
   border: 1px solid transparent;
