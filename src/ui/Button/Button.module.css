@@ -8,6 +8,8 @@
   align-items: center;
   gap: 8px;
   cursor: pointer;
+  height: fit-content;
+  width: fit-content;
 
   font-family: Roboto;
   font-size: 14px;
@@ -78,7 +80,6 @@
 
 a.button {
   text-decoration: none;
-  display: inline-block;
 }
 
 .button:disabled:hover {
