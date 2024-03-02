@@ -68,16 +68,18 @@ select {
   }
 }
 
-
-:root{
+:root {
   --c-black: #000;
   --c-white: #fff;
-  --c-mindal: #f0c88dbd;
+
+  --c-mindal: #f0c078;
+  --c-mindal-light: #f0c88dbd;
+  --c-mindal-lighter: #f0c07840;
+
   --c-green: #38b63d;
 
-  --c--disabled-text-light: #1d1b20;
-  --c--disabled-bg-light: #1d1b201f;
-
-  --c--disabled-bg-dark: #e6e0e91f;
-  --c--disabled-text-dark: #e6e0e9;
+  --c-disabled-text-light: #1d1b20;
+  --c-disabled-bg-light: #1d1b201f;
+  --c-disabled-text-dark: #e6e0e9;
+  --c-disabled-bg-dark: #e6e0e91f;
 }

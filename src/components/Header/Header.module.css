@@ -1,0 +1,22 @@
+.header {
+  background-color: var(--c-mindal);
+  padding: 15px 45px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: clamp(26px, 6vw, 57px);
+  font-weight: 600;
+  line-height: normal;
+}
+
+.button {
+  text-transform: uppercase;
+  height: 40px;
+  width: 180px;
+}
