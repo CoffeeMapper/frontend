@@ -35,9 +35,9 @@
 }
 
 .button.black:disabled {
-  background-color: var(--c--disabled-bg-light);
-  border-color: var(--c--disabled-bg-light);
-  color: var(--c--disabled-text-light);
+  background-color: var(--c-disabled-bg-light);
+  border-color: var(--c-disabled-bg-light);
+  color: var(--c-disabled-text-light);
 }
 
 .button.white {
@@ -47,21 +47,21 @@
 }
 
 .button.white:disabled {
-  background-color: var(--c--disabled-bg-light);
-  border-color: var(--c--disabled-bg-light);
-  color: var(--c--disabled-text-light);
+  background-color: var(--c-disabled-bg-light);
+  border-color: var(--c-disabled-bg-light);
+  color: var(--c-disabled-text-light);
 }
 
 .button.mindal {
-  background-color: var(--c-mindal);
+  background-color: var(--c-mindal-light);
   color: var(--c-black);
-  border-color: var(--c-mindal);
+  border-color: var(--c-mindal-light);
 }
 
 .button.mindal:disabled {
-  background-color: var(--c--disabled-bg-dark);
-  border-color: var(--c--disabled-bg-dark);
-  color: var(--c--disabled-text-dark);
+  background-color: var(--c-disabled-bg-dark);
+  border-color: var(--c-disabled-bg-dark);
+  color: var(--c-disabled-text-dark);
 }
 
 .button.green {
@@ -71,9 +71,9 @@
 }
 
 .button.green:disabled {
-  background-color: var(--c--disabled-bg-dark);
-  border-color: var(--c--disabled-bg-dark);
-  color: var(--c--disabled-text-dark);
+  background-color: var(--c-disabled-bg-dark);
+  border-color: var(--c-disabled-bg-dark);
+  color: var(--c-disabled-text-dark);
 }
 
 a.button {
