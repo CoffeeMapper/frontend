@@ -1,0 +1,182 @@
+.base {
+  font-family: var(--font-family-base);
+  margin: 0;
+  padding: 0;
+}
+
+.black {
+  color: var(--c-black);
+}
+
+.white {
+  color: var(--c-white);
+}
+
+.mindal {
+  color: var(--c-mindal);
+}
+
+.green {
+  color: var(--c-green);
+}
+
+.h1 {
+  font-size: 2.8125rem;
+  font-weight: 400;
+  line-height: 3.25rem;
+}
+
+.h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+.h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 2.25rem;
+}
+
+.h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.h5 {
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+.h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.00938rem;
+}
+
+.subheading1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  letter-spacing: 0.00625rem;
+}
+
+.subheading2 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0.03125rem;
+}
+
+.body1 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.03125rem;
+}
+
+.body2 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: 0.01563rem;
+}
+
+.DisplayLarge {
+  font-size: 3.5625rem;
+  font-weight: 400;
+  line-height: 4rem;
+  letter-spacing: -0.01563rem;
+}
+.DisplayMedium {
+  font-size: 2.8125rem;
+  font-weight: 400;
+  line-height: 3.25rem;
+}
+.DisplaySmall {
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 2.75rem;
+}
+.HeadlineLarge {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+.HeadlineMedium {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 2.25rem;
+}
+.HeadlineSmall {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.TitleLarge {
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+.TitleMedium {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.00938rem;
+}
+.TitleSmall {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  letter-spacing: 0.00625rem;
+}
+.LabelLarge {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  letter-spacing: 0.00625rem;
+}
+.LabelMedium {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0.03125rem;
+}
+.LabelSmall {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0.03125rem;
+}
+.BodyLarge {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.03125rem;
+}
+.BodyMedium {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: 0.01563rem;
+}
+.BodySmall {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.span {
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+.bold {
+  font-weight: bolder;
+}

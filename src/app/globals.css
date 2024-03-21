@@ -82,4 +82,6 @@ select {
   --c-disabled-bg-light: #1d1b201f;
   --c-disabled-text-dark: #e6e0e9;
   --c-disabled-bg-dark: #e6e0e91f;
+
+  --font-family-base: 'Roboto', Inter, system-ui, Arial, sans-serif;
 }
